@@ -7,7 +7,7 @@ enhance the github activity page by adding missing features:
 
 #### Preview
 
-![Preview](screenshots/octohelper.png)
+![Preview](screenshots/octohelper.jpg)
 
 ### Installation
 
