@@ -7,3 +7,5 @@ package
 .DS_Store
 *.pem
 *.zip
+*.crx
+
