@@ -1,14 +1,27 @@
+.title.avatar-container a {
+	line-height: 36px;
+}
+
 .title .github-avatar {
-	position: absolute;
-	left: 0;
-	top: 6px;
+	display: inline-block;
+	position: relative;
+	margin: 4px;
+	margin-top: 6px;
+	margin-bottom: -11px;
 	border-radius: 4px;
 	width: 32px;
 	height: 32px;
 }
 
+.title a:first-child .github-avatar {
+	position: absolute;
+	left: 0;
+	top: 16px;
+}
+
 
 /* overriding github */
+
 .news .alert.avatar-ready .simple > .octicon {
 	left: 27px !important;
 	z-index: 10;
