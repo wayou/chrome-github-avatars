@@ -16,15 +16,24 @@
 .title a:first-child .github-avatar {
 	position: absolute;
 	left: 0;
-	top: 16px;
+	top: 13px;
+}
+
+hr.octohelper-divider {
+	height: 0.25em;
+	padding: 0;
+	margin: 24px 0;
+	background-color: #e1e4e8;
+	border: 0;
+	margin-left: -50px;
 }
 
 
 /* overriding github */
 
-.news .alert.avatar-ready .simple > .octicon {
-	left: 27px !important;
+.news .alert.avatar-loaded .simple > .octicon {
+	left: 34px !important;
 	z-index: 10;
-	top: 27px;
+	top: 36px;
 	text-shadow: #FFF -1px -1px 0px;
 }

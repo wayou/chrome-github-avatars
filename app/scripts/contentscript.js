@@ -63,12 +63,13 @@ var $news = $('.news')
 
                 $self.prepend($img.clone());
                 $self.addClass('avatar-ready');
+                $self.closest('.alert').addClass('avatar-loaded');
             });
         }
     },
 
     addDividerLine = function () {
-        $('.alert').last().append($('<hr/>'));
+        $('.alert').last().append($('<hr/>').addClass('octohelper-divider'));
     }
 
     , getAvatarsForUsers = function (callback) {
