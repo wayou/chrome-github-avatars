@@ -1,6 +1,6 @@
 {
   "name": "Octohelper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "github helpers enhanced the activity page",
   "icons": {
@@ -8,7 +8,7 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "homepage_url": "http://github.com/anasnakawa/chrome-github-avatars",
+  "homepage_url": "https://github.com/wayou/octohelper",
   "permissions": [
     "tabs",
     "*://github.com/"

@@ -1,14 +1,14 @@
-### Avatars for Github Chrome Extension
+### Octohelper
 ---
 
-display user avatars on the Github news feed, nothing more, nothing less..
+enhance the github activity page by adding missing features:
+- adding avatars for users
+- adding a divider line for pagination
 
 #### Preview
 
-![Preview](screenshots/github-avatars.png)
-
----
+![Preview](screenshots/octohelper.png)
 
 ### Installation
 
-[Download from Chrome Web Store](https://chrome.google.com/webstore/detail/avatars-for-github/pgjmdbklnfklcjfbonjfkdhaonlfogbb)
+[![get from chrome web store](https://raw.githubusercontent.com/wayou/github-activity-divider/master/app/images/available_on_chrome_web_store.png)](https://chrome.google.com/webstore/detail/bkdlglbdmdklplenigleafmdfpiljpji)
