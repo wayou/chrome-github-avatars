@@ -1,6 +1,6 @@
 // Saves options to chrome.storage
 function save_options() {
-    var isShowAllAvatars = document.getElementById('isShowAllAvatars').value;
+    var isShowAllAvatars = document.getElementById('isShowAllAvatars').checked;
     chrome.storage.sync.set({
         isShowAllAvatars: isShowAllAvatars
     });
@@ -13,7 +13,8 @@ function restore_options() {
     chrome.storage.sync.get({
         isShowAllAvatars: false
     }, function (items) {
-        document.getElementById('isShowAllAvatars').value = items.isShowAllAvatars;
+        console.log(items);
+        document.getElementById('isShowAllAvatars').checked = items.isShowAllAvatars;
     });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
